@@ -1,0 +1,125 @@
+{
+    "name": "moyo/cta_int",
+    "description": "CTA Corporate website v4",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Moyo Web Architects",
+            "email": "info@moyoweb.nl",
+            "homepage": "http://www.moyoweb.nl"
+        }
+    ],
+    "repositories": [ {
+        "name": "cta/composer",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/composer.git"
+    },{
+        "name": "cta/footer",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/footer.git"
+    },{
+        "name": "cta/articles",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/articles.git"
+    },{
+        "name": "cta/taxonomy",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/taxonomy.git"
+    },{
+        "name": "cta/cookie-law",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/cookie-law.git"
+    },{
+        "name": "cta/cck",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/cck.git"
+    },{
+        "name": "cta/translations",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/translations.git"
+    },{
+        "name": "cta/categories",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/makundi.git"
+    },{
+        "name": "moyo/cloudinary",
+        "type": "vcs",
+        "url": "https://github.com/moyoweb/cloudinary.git"
+    },{
+        "name": "cta/kutafuta",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/kutafuta.git"
+    },{
+        "name": "cta/carousel",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/carousel.git"
+    },{
+        "name": "cta/sitemap",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/sitemap.git"
+    },{
+        "name": "cta/mobile_menu",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/mobile-menu.git"
+    },{
+        "name": "cta/regions",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/regions.git"
+    },{
+        "name": "cta/router",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/router.git"
+    },{
+        "name": "cta/social",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/social.git"
+    },{
+        "name": "cta/terms",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/terms.git"
+    },{
+        "name": "cta/wufoo",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/wufoo.git"
+    },{
+        "name": "cta/briteverify",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/briteverify.git"
+    },{
+        "name":"cta/default",
+        "type":"vcs",
+        "url":"https://github.com/cta-int/moyo.git"
+    },{
+        "name":"cta/apps4ag",
+        "type":"vcs",
+        "url":"https://github.com/cta-int/apps4ag.git"
+    }],
+    "require": {
+        "cta/apps4ag": "dev-master",
+        "cta/composer": "1.0.*",
+        "cta/footer": "1.0.*",
+        "cta/articles": "2.1.*",
+        "cta/taxonomy": "2.0.*",
+        "cta/cookie-law": "1.0.*",
+        "cta/cck": "1.2.*",
+        "cta/default":"1.1.*",
+        "cta/translations": "1.1.*",
+        "cta/categories": "1.2.*",
+        "moyo/cloudinary": "1.0.*",
+        "cta/kutafuta": "1.0.*",
+        "cta/carousel": "1.0.*",
+        "cta/sitemap": "1.0.*",
+        "cta/regions": "1.0.*",
+        "cta/social": "1.0.*",
+        "cta/router": "2.0.*",
+        "cta/mobile_menu": "1.1.*",
+        "cta/terms": "1.0.*",
+        "cta/wufoo": "1.1.*",
+        "cta/briteverify": "1.0.*",
+        "symfony/routing": "*",
+        "symfony/yaml": "*",
+        "symfony/config": "*",
+        "symfony/expression-language": "*",
+        "cloudinary/cloudinary_php": "dev-master"
+    }
+}
